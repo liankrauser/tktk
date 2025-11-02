@@ -34,7 +34,18 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
       overflow-x: hidden !important;
     }
 
+/* Correção do espaço em branco embaixo das imagens */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
 
+/* Alternativa: caso a primeira não funcione */
+.main-swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  vertical-align: bottom;
+}
     .swiper-slide-thumb-active {
       border: 2px solid #06b6d4;
       /* cyan-500 */

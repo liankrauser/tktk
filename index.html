@@ -35,17 +35,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
     }
 
     
- .px-4.pb-4.pt-2 {
-      display: none !important;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
 
-    .swiper-slide-thumb-active {
-      border: 2px solid #06b6d4;
-      /* cyan-500 */
-      border-radius: 8px;
-    }
 
     .swiper-slide-thumb-active {
       border: 2px solid #06b6d4;
@@ -231,6 +221,23 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   <style>
     .group:hover .group-hover\:text-blue-700 {
       color: #333;
+    }
+
+      .tab-active::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: black;
+    }
+
+    /* Adicione aqui */
+    .px-4.pb-4.pt-2 {
+      display: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
     }
   </style>
 

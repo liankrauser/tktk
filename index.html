@@ -29,35 +29,10 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   <script src="js/feather.min.js"></script>
 
   <style>
-
-/* Remover espaço em branco do banner principal */
-.main-swiper {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.main-swiper .swiper-wrapper {
-  margin-bottom: 0 !important;
-}
-
-.main-swiper img {
-  display: block;
-  margin-bottom: 0 !important;
-}
-
-/* Remover espaço da div que contém o swiper */
-.relative {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-    
     body,
     html {
       overflow-x: hidden !important;
     }
-
-    
 
 
     .swiper-slide-thumb-active {
@@ -186,45 +161,33 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
       height: 2px;
       width: 100%;
       background-color: black;
-    }
+    }/* Adicione isto no seu <style> existente */
+#ewqewqewq {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  display: block;
+}
 
+#ewqewqewq img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-    /* Corrigir espaço em branco no mobile */
-@media (max-width: 768px) {
-  .main-swiper {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 0 !important;
-  }
-  
-  .main-swiper .swiper-wrapper {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
-  .main-swiper .swiper-slide {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 0 !important;
-  }
-  
-  .main-swiper img {
-    display: block !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    vertical-align: bottom !important;
-  }
-  
-  .relative {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 0 !important;
-  }
-  
-  /* Remover gap da seção laranja */
-  .bg-gradient-to-r {
-    margin-top: 0 !important;
-  }
+.relative {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.swiper-slide {
+  line-height: 0;
+}
+
+.swiper-slide img {
+  display: block;
 }
   </style>
 
@@ -237,7 +200,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
 
   <!-- Banner Principal -->
-  <div class="relative" style="margin-bottom: 0; padding-bottom: 0;">
+  <div class="relative">
     <div class="swiper main-swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="images/68929f470fb96_184476-300-300.webp" class="w-full"></div>
@@ -264,7 +227,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   </div>
 
   <!-- Miniaturas -->
-    <div class="px-4 pb-4 pt-2" style="display: none;">
+  <div class="px-4 pb-4 pt-2" style="display: none;">
     <div class="swiper thumb-swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide w-16 h-16"><img src="images/68929f470fb96_184476-300-300.webp" class="w-full h-full object-cover rounded"></div>
@@ -283,23 +246,6 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   <style>
     .group:hover .group-hover\:text-blue-700 {
       color: #333;
-    }
-
-      .tab-active::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 2px;
-      width: 100%;
-      background-color: black;
-    }
-
-    /* Adicione aqui */
-    .px-4.pb-4.pt-2 {
-      display: none !important;
-      padding: 0 !important;
-      margin: 0 !important;
     }
   </style>
 

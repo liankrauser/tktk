@@ -29,6 +29,29 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
   <script src="js/feather.min.js"></script>
 
   <style>
+
+/* Remover espaço em branco do banner principal */
+.main-swiper {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.main-swiper .swiper-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.main-swiper img {
+  display: block;
+  margin-bottom: 0 !important;
+}
+
+/* Remover espaço da div que contém o swiper */
+.relative {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+    
     body,
     html {
       overflow-x: hidden !important;
@@ -175,7 +198,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
 
   <!-- Banner Principal -->
-  <div class="relative">
+  <div class="relative" style="margin-bottom: 0; padding-bottom: 0;">
     <div class="swiper main-swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="images/68929f470fb96_184476-300-300.webp" class="w-full"></div>
